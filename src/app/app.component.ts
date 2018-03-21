@@ -1,6 +1,5 @@
 import { Component,   Input, Output } from '@angular/core';
 import { Http, Response} from '@angular/http';
-import { Details } from './details';
 import { environment } from '../environments/environment';
 import { NgModule } from '@angular/core';
 import{ GithubService} from './github/github.service';

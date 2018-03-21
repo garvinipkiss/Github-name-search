@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {GithubService} from '../github.service';
+import {GithubService} from '..github/github.service';
 import 'rxjs/add/operator/map';
 
 @Component({

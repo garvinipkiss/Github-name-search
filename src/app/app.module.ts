@@ -4,4 +4,19 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { ProfileComponent } from './account/account.component';
+import { accountComponent } from './account/account.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    accountComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

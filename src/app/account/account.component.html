@@ -1,6 +1,7 @@
 <div class="container">
 <div class ="row">
   <div class="col-md-8">
+
     <form>
       <div class="form-group">
         <input class="form-control" type="text" placeholder="Enter a GitHub username" name="username" [(ngModel)] ="username" (keyup)="searchUser()">
@@ -37,17 +38,13 @@
            <div class="col-md-9">
              <h4><a href="user.html_url" target="_blank">{{repo.name}}</a></h4>
              <p>{{repo.description}}</p>
+               </div>
+
            </div>
-           <div class="col-md-3">
-             <span class="label label-info">{{repo.watchers}} Watchers</span>
-             <span class="label label-success">{{repo.fork}}  Forks</span>
-           </div>
-        </div>
-        <hr>
+      </div>
+      </div>
     </div>
+   </div>
   </div>
-</div>
-</div>
-</div>
-</div>
+ </div>
 </div>

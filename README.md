@@ -25,12 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Technologies Used
 
-****{Angular Cli}
-****{css}
-
+{Angular Cli}
+{css}
 ## Support and contact details
 
-****{Facebook: Garvin Berserk}
+{Email:garvinipkiss@gmail.com}
+{Facebook: Garvin Berserk}
 
 ## MIT License
 Copyright (c) [2018] [Garvin Ogolla]

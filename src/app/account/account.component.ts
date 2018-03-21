@@ -9,16 +9,16 @@ import 'rxjs/add/operator/map';
 })
 export class accountComponent implements OnInit {
   user:any=[];
-  repos:any=[];
+  repository:any=[];
   username:string;
   constructor(private _githubService: GithubService) {
     this._githubService.getUser().subscribe(user => {
       console.log(user);
       this.user = user;
     })
-    this._githubService.getRepos().subscribe(repos => {
+    this._githubService.getRepository().subscribe(repository => {
       //console.log(user);
-      this.repos = repos;
+      this.repository = repository;
     })
   }
   ngOnInit() {
@@ -29,9 +29,9 @@ export class accountComponent implements OnInit {
        this.user = user;
      })
      //console.log('It works');
-     this._githubService.getRepos().subscribe(repos => {
+     this._githubService.getRepository().subscribe(repository => {
        //console.log(user);
-       this.repos = repos;
+       this.repository = repository;
      })
 
    }

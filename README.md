@@ -31,6 +31,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 {Angular Cli}
 {css}
+{API}
+{servives an routing}
 
 ## Support and contact details
 

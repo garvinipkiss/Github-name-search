@@ -1,0 +1,18 @@
+
+.grid > div {
+  background-color: #eee;
+  padding:1em;
+}
+.grid > div:nth-child(odd){
+  background: #ddd;
+}
+.grid{
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 30% 200%;
+  grid-row-gap: 5px;
+}
+form {
+  padding-top: 30px;
+  text-align: center;
+}

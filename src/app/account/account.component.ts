@@ -3,11 +3,11 @@ import {GithubService} from '../github.service';
 import 'rxjs/add/operator/map';
 
 @Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  selector: 'app-account',
+  templateUrl: './account.component.html',
+  styleUrls: ['./account.component.css']
 })
-export class ProfileComponent implements OnInit {
+export class accountComponent implements OnInit {
   user:any=[];
   repos:any=[];
   username:string;

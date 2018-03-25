@@ -2,11 +2,10 @@ body {
        background-color: black;
        color: white;
    }
+form {
+     padding-top: 30px;
+     text-align: center;
+   }
 p {
   font-family: sans-serif;
-}
-
-form {
-  padding-top: 30px;
-  text-align: center;
 }

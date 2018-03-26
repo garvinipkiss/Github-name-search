@@ -18,7 +18,7 @@ userName:string
   constructor(private user:GithubService){}
 
 findUser(){
-this.user.searchUser().subscribe(
+this.user.getUser().subscribe(
   details=>{console.log(details)
   this.details=details;
 })

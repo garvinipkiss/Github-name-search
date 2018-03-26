@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {GithubService} from '../github.service';
-import 'rxjs/add/operator/map';
+import {GithubService} from '../github/github.service';
+
 
 @Component({
   selector: 'app-account',

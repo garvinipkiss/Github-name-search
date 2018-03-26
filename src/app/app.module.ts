@@ -5,6 +5,7 @@ import {FormsModule} from '@angular/forms'
 import { AlertsService } from './alert-service/alerts.service'
 import { AppComponent } from './app.component';
 import { accountComponent } from './account/account.component';
+import {GithubService} from './github/github.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { accountComponent } from './account/account.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

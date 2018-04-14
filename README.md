@@ -1,10 +1,15 @@
-# GithubNameSearch
+![GithubNameSearch](githubnamesearch.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Description
 
-This app is able to search and bring results of dev names in Github.
+This app is able to search and bring results of dev names,their repositoties in Github.
+
+## Specifications
+* This app allows users to find various devs in github.
+* Also shows number of followers.
+* users are able to view different devs proffiles.
 
 ## Development server
 
@@ -29,10 +34,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Technologies Used
 
-{Angular Cli}
-{css}
-{API}
-{servives an routing}
+1. Angular Cli
+2. css
+3. API
+4. servives and routing
 
 ## Support and contact details
 

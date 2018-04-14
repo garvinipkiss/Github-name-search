@@ -1,6 +1,6 @@
 body {
-       background-color: black;
-       color: white;
+       background-color: white;
+       color: black;
    }
 form {
      padding-top: 30px;
@@ -9,3 +9,27 @@ form {
 p {
   font-family: sans-serif;
 }
+.jumbotron {
+  background-color: grey;
+  text-align: center; }
+.jumbotron h1 {
+    margin-bottom: 20px;
+    font-size: 8rem;
+    color: black; }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #grey;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+.footer_bottom_left{float:left; display:inline; width:50%; text-align:left}
+.footer_bottom_left p{color:#fff; font-size:13px; margin-top:5p}

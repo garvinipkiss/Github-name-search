@@ -1,4 +1,7 @@
 <body>
+  <div class="jumbotron">
+    <h1>Github Name Search </h1>
+</div>
   <div class="container">
     <div class="item">
       <form class="get-git-username">
@@ -17,21 +20,26 @@
     <li><p>{{user.login}}</p></li>
     <li><p>{{user.location}}</p></li>
     <li><p>{{user.email}}</p></li>
+    <hr>
     <li><p>{{user.organisation}}<img src="{{user.organizations_url}}"></p></li>
   </ol>
  </div>
-  <div class="col-md-4">
+ <div class="grid-container">
+ <div class="grid-item">
     <div class="track">
-      <p style="border-bottom:solid;border-color:purple; padding-bottom:15px;">Repositories:  <span class=label-label-primary >{{user.public_repos}}</span></p>
+      <p> Repositories:  <span class=label-label-primary >{{user.public_repos}}</span></p>
+      <p> Followers:  {{user.followers}}</p>
+      <p> Following:  {{user.following}}</p>
+   </div>
    </div>
    <div class="panel panel-default">
      <div class="panel-heading">
-       <h3 class="panel-title">Repos</h3>
+       <strong><h3 class="panel-title">Repos</h3></strong>
      </div>
      <div class="panel-body">
        <div *ngFor ="let repo of repos">
        <div class="row">
-         <div class="col-md-5">
+         <div class="grid-item">
            <h4><a href="user.html_url" target="_blank">{{repo.name}}</a></h4>
            <p>{{repo.description}}</p>
              </div>
